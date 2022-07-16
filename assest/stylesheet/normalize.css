@@ -1,0 +1,71 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Archivo', sans-serif;
+}
+
+main,
+section,
+div,
+aside,
+header,
+footer,
+article,
+nav,
+ul,
+figure,
+span,
+h2,
+h1,
+li,
+figcaption,
+a {
+    display: flex;
+    flex-wrap: wrap;
+    text-transform: capitalize;
+}
+
+li {
+    list-style: none;
+}
+
+a,
+a:visited {
+    color: inherit;
+    text-decoration: none;
+    
+}
+
+h1 {
+    font-size: 46px;
+    text-transform: capitalize;
+    font-family: 'Lora', serif;
+
+}
+
+h2 {
+    font-size: 38px;
+    text-transform: capitalize;
+    font-family: 'Lora', serif;
+}
+
+h3 {
+    font-size: 34px;
+    text-transform: capitalize;
+    font-family: 'Lora', serif;
+}
+
+h4 {
+    font-size: 24px;
+    text-transform: capitalize;
+    font-family: 'Lora', serif;
+}
+address{
+    font-style: normal;
+}
